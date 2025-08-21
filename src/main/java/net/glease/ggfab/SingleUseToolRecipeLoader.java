@@ -28,8 +28,8 @@ class SingleUseToolRecipeLoader implements Runnable {
         addSingleUseToolRecipe(Materials.TungstenSteel, hardTools);
         addSingleUseToolRecipe(Materials.HSSG, hardTools);
         addSingleUseToolRecipe(Materials.Rubber, softTools);
-        addSingleUseToolRecipe(Materials.StyreneButadieneRubber, softTools);
-        addSingleUseToolRecipe(Materials.Polybenzimidazole, softTools);
+        addSingleUseToolRecipe(Materials.StyreneButadieneRubber, 5000, softTools);
+        addSingleUseToolRecipe(Materials.Silicone, softTools);
 
         String prefix = "Shape_One_Use_";
         for (GGItemList value : GGItemList.values()) {
